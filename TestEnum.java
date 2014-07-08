@@ -1,5 +1,4 @@
-// package xyz
-package undefined
+
 
 // imports
 
@@ -10,9 +9,9 @@ public enum TestEnum implements com.touchableheroes.TestInterface
 {
 
        
-           START( XYZ 11
+           START(XYZ11)
        
-           END( ABC 12
+           END(ABC12)
        
 
 
@@ -24,7 +23,7 @@ public enum TestEnum implements com.touchableheroes.TestInterface
 
        
           
-    TestEnum( final String _id, final int count )
+    TestEnum( final String _id, final int count ) %>
     {
        
           this._id = _id;
