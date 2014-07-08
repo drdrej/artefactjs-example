@@ -25,7 +25,7 @@
         ],
 
         "states" : {
-            "START" : [ "XYZ", 11 ],
+            "START" : [ "\"XYZ\"", 11 ],
             "END" : [ "ABC", 12 ]
         }
     }

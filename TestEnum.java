@@ -8,11 +8,7 @@ import java.lang.String;
 public enum TestEnum implements com.touchableheroes.TestInterface
 {
 
-       
-           START(XYZ, 11)
-       
-           END(ABC, 12)
-       
+       START("XYZ", 11), END(ABC, 12);
 
 
        
