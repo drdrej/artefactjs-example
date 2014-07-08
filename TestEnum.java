@@ -23,7 +23,7 @@ public enum TestEnum implements com.touchableheroes.TestInterface
 
        
           
-    TestEnum( final String _id, final int count ) %>
+    TestEnum( final String _id, final int count )      
     {
        
           this._id = _id;
