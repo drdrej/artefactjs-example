@@ -7,8 +7,6 @@
 
     "name"     : "TestEnum",
 
-    "output"   : "{{project.src}}/java/main/src/{{path}}/{{name}}.{{type}}",
-
     "model"    : {
 
         "imports" : [ "java.lang.String" ],
@@ -24,19 +22,11 @@
                 "name" : "count",
                 "type" : "int"
             }
-         ],
+        ],
 
         "states" : {
-
-           "START" : {
-               "_id": "XYZ",
-               "count": 11
-           },
-
-           "END" : {
-                "_id": "ABC",
-                "count": 12
-            }
-         }
+            "START" : [ "XYZ", 11 ],
+            "END" : [ "ABC", 12 ]
+        }
     }
 }

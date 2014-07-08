@@ -9,9 +9,9 @@ public enum TestEnum implements com.touchableheroes.TestInterface
 {
 
        
-           START(XYZ11)
+           START(XYZ, 11)
        
-           END(ABC12)
+           END(ABC, 12)
        
 
 
